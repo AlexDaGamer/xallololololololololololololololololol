@@ -19,3 +19,13 @@ gm.__namecall =
         return namecall(self, unpack(args))
     end
 )
+
+
+game.StarterGui:SetCore(
+    "SendNotification",
+    {
+        Title = "xa aa",
+        Text = "dm xa#0001 for issues",
+    }
+)
+Duration = 16
